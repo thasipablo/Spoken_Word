@@ -1,9 +1,10 @@
 import './App.css'
+import { Home } from './pages'
 
 function App() {
 
   return (
-    <h1>The spoken word</h1>
+    <Home />
   )
 }
 
