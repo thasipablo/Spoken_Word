@@ -1,6 +1,16 @@
+import LeftZone from "./layouts/LeftZone"
+import MainZone from "./layouts/MainZone"
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <main className="flex">
+      <section>
+        <LeftZone />
+      </section>
+      <section>
+        <MainZone />
+      </section>
+    </main>
   )
 }
 
